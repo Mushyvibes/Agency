@@ -1,0 +1,41 @@
+.divthree>div>img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+    }
+    footer{
+        float: right;
+    }
+    .divone>h1{
+        color: orange;
+        font-size: 50px;
+        text-align: center;
+    }
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    #A{
+        color: violet;
+    }
+@media (min-width: 680px){
+
+    .divthree{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 200px;
+        gap: 30px;
+    
+    }
+    .divthree>div>img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+    }
+    .divthree>div{
+        display: inline-block;
+    }
+}
